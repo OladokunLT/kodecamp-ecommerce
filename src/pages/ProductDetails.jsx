@@ -25,15 +25,15 @@ const ProductDetails = () => {
   const { title, price, description, image } = product;
 
   return (
-    <section className="pt-32 pb-12 lg:py-32 h-screen flex items-center">
-      <div className="container mx-auto">
+    <section className=" flex items-center">
+      <div className="container mx-auto mt-[100px] mb-[50px] ">
         <div className="flex flex-col lg:flex-row items-center">
           {/* image */}
-          <div className="flex flex-1 justify-center items-center mb-8 lg:mb-8 ">
+          <div className="flex flex-1 justify-center items-center ">
             <img className="max-w-[200px] lg:max-w-xs " src={image} alt="" />
           </div>
           {/* text */}
-          <div className="flex-1 text-center lg:text-left ">
+          <div className="flex-1 text-center lg:text-left w-[95%]">
             <h1 className="text-[26px] font-medium mb-2 max-w-[450px] mx-auto lg:mx-0 ">
               {" "}
               {title}{" "}

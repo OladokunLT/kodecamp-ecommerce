@@ -43,9 +43,10 @@ const Sidebar = () => {
           {/* clear cart icon */}
           <div
             onClick={clearCart}
-            className="cursor-pointer py-4 bg-red-700 text-white w-12 h-12 flex justify-center items-center text-xl "
+            className="cursor-pointer text-red-700  flex justify-center items-center text-sm font-medium"
           >
-            <BsFillTrash2Fill />
+            <div>CLEAR ALL</div>
+            {/* <BsFillTrash2Fill /> */}
           </div>
         </div>
         <Link
@@ -53,9 +54,6 @@ const Sidebar = () => {
           className="bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium"
         >
           View cart
-        </Link>
-        <Link className="bg-primary flex p-4 justify-center items-center text-white w-full font-medium">
-          Checkout
         </Link>
       </div>
     </div>

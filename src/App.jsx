@@ -32,7 +32,6 @@ function App() {
         <Route path="product/:id" element={<ProductDetails />} />
       </Routes>
       <Sidebar />
-      <Footer />
     </div>
   );
 }
